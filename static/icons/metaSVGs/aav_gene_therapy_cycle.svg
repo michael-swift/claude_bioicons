@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <title>AAV Gene Therapy Development Cycle</title>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">AAV Gene Therapy Development Cycle</text>
+  
+  <!-- Central Circle -->
+  <circle cx="400" cy="300" r="80" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Iterative</text>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Development</text>
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Cycle</text>
+  
+  <!-- DESIGN Section - Upper Left -->
+  <g transform="translate(180, 130)">
+    <!-- Plasmid Representation from cc-0/Genetics/Marcel_Tisch/CRISPR_plasmid.svg -->
+    <g transform="scale(0.8)">
+      <circle cx="59.33" cy="60.83" r="57.33" fill="none" stroke="#1f4e79" stroke-width="2"/>
+      <path fill="#c8d5ea" d="M86.22,22a22.35,22.35,0,0,0-16.44,3.27c-7.36,4.78-12.11,12.25-14.51,19.84v0a9.17,9.17,0,0,1-8.14,6,121.45,121.45,0,0,0-15.75,2.18c-6.12,1.53-12.57,3.9-16.81,8.2A13.77,13.77,0,0,0,10.65,69c-2,12.38,15,18.62,25.88,20.75,15.55,3,32.57,1.88,46.11-5.92,19-10.93,29.73-35,17.24-53A21.44,21.44,0,0,0,86.22,22Z"/>
+      <path fill="#39dd17" stroke="#39dd17" stroke-width="4" d="M42.05,115.59c27.77,9.19,57.83-4.79,69.76-32.23"/>
+      <path fill="none" stroke="#ce1b1b" stroke-width="4" d="M64.05,3.66A55.73,55.73,0,0,0,25.7,14.51"/>
+      <path fill="none" stroke="#f7931e" stroke-width="4" d="M3.71,47.36a55.58,55.58,0,0,0,7.34,44"/>
+      <path fill="none" stroke="#7913e5" stroke-width="4" d="M114,78.55c9.45-27.69-4-57.8-31.34-69.95"/>
+    </g>
+  
+    <!-- Sequence Data Visualization -->
+    <g transform="translate(120, 5)">
+      <rect x="0" y="0" width="120" height="130" fill="#fff" stroke="#333" stroke-width="1" rx="3" ry="3"/>
+      <text x="10" y="20" font-family="Courier, monospace" font-size="10" fill="#333">>AAV_capsid</text>
+      <text x="10" y="40" font-family="Courier, monospace" font-size="10" fill="#333">ATGCTAGCTA</text>
+      <text x="10" y="55" font-family="Courier, monospace" font-size="10" fill="#333">GCTAGCTAGT</text>
+      <text x="10" y="70" font-family="Courier, monospace" font-size="10" fill="#333">ATGCAGTCGA</text>
+      
+      <text x="10" y="95" font-family="Courier, monospace" font-size="10" fill="#333">>Transgene</text>
+      <text x="10" y="115" font-family="Courier, monospace" font-size="10" fill="#333">GCATTAGCTA</text>
+      <text x="10" y="130" font-family="Courier, monospace" font-size="10" fill="#333">GCTAGATATG</text>
+    </g>
+    
+    <!-- Algorithm flowchart elements -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="0" width="80" height="30" rx="5" ry="5" fill="#ffc022" stroke="#333" stroke-width="1.5"/>
+      <text x="40" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Target ID</text>
+      
+      <path d="M40,30 L40,40" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrowheadSmall)"/>
+      
+      <rect x="0" y="40" width="80" height="30" rx="5" ry="5" fill="#19aeff" stroke="#333" stroke-width="1.5"/>
+      <text x="40" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Vector Design</text>
+    </g>
+  </g>
+  <text x="180" y="300" font-family="Arial, sans-serif" font-weight="bold" font-size="20" text-anchor="middle" fill="#333">DESIGN</text>
+  
+  <!-- BUILD Section - Upper Right -->
+  <g transform="translate(620, 130)">
+    <!-- AAV Vector from cc-0/Genetics/umasstr/AAV_adenovirus.svg -->
+    <g transform="scale(0.7) translate(-60, 0)">
+      <path fill="none" stroke="#000000" stroke-width="1.265" d="m 76.6962,99.977573 c 0,0 -2.957456,0.272057 -2.957456,-2.753061 v -6.928963 c 0,-3.80511 -4.837263,-3.88039 -4.837263,0 v 22.652541 c 0,4.1991 4.837263,4.17129 4.837263,0 v -5.29426 c 0,-2.88766 2.906609,-2.5862 2.906609,-2.5862"/>
+      <path fill="none" stroke="#000000" stroke-width="1.265" d="m 76.616229,99.982424 h 2.558392"/>
+      <path fill="none" stroke="#000000" stroke-width="1.265" d="M 76.382839,105.05805 H 176.38264"/>
+      <g transform="translate(73.8597,-21.579491)">
+        <path fill="#aadadc" stroke="#d84e16" d="M 48.844664,200.70572 70.693894,186.8625 V 162.95149 L 48.844664,149.7375 26.995434,162.95149 V 186.8625 Z"/>
+        <path fill="#aadadc" stroke="#d84e16" d="m 26.899893,163.28708 10.317256,7.84801 -9.845326,15.59107 20.76483,4.56197 22.023303,-4.71928 -10.539725,-16.67478 10.382417,-6.29238"/>
+        <path fill="#aadadc" stroke="#d84e16" d="M 37.476151,171.06993 48.951827,150.1557 59.758458,170.32947 Z"/>
+        <path fill="#aadadc" stroke="#d84e16" d="m 37.439618,171.46716 11.011654,19.82097 11.32627,-20.76483"/>
+        <path fill="#aadadc" stroke="#d84e16" d="m 48.805215,200.17611 -0.629234,-9.00595"/>
+        <circle fill="#d84e16" cx="49.080509" cy="150.07556" r="1.9033238"/>
+        <circle fill="#d84e16" cx="70.631889" cy="163.05112" r="1.9033238"/>
+        <circle fill="#d84e16" cx="26.742584" cy="163.05112" r="1.9033238"/>
+        <circle fill="#d84e16" cx="27.057203" cy="186.80482" r="1.9033238"/>
+        <circle fill="#d84e16" cx="49.080509" cy="200.7267" r="1.9033238"/>
+        <circle fill="#d84e16" cx="70.710541" cy="186.80482" r="1.9033238"/>
+        <circle fill="#d84e16" cx="48.136654" cy="190.97351" r="1.9033238"/>
+        <circle fill="#d84e16" cx="37.518272" cy="170.99524" r="1.9033238"/>
+        <circle fill="#d84e16" cx="59.856197" cy="170.13004" r="1.9033238"/>
+      </g>
+      <rect fill="#ff8080" stroke="#000000" stroke-width="0.365" width="2.4382944" height="9.28125" x="94.149628" y="100.41743" ry="1.2191472"/>
+      <rect fill="#800080" stroke="#000000" stroke-width="0.365" width="2.4382944" height="9.28125" x="126.58928" y="100.41743" ry="1.2191472"/>
+      <rect fill="#ff7f2a" stroke="#000000" stroke-width="0.365" width="28.383738" height="9.28125" x="97.413803" y="100.41743" ry="1.2191472"/>
+      <rect fill="#ffffff" stroke="#000000" stroke-width="0.365" width="13.430283" height="5.2895308" x="133.70828" y="102.41328" ry="0"/>
+      <text font-size="4.23333px" x="134.98604" y="106.12775">polyA</text>
+    </g>
+    
+    <!-- DNA Double Helix -->
+    <g transform="translate(-160, 30) scale(0.4)">
+      <path d="M10,30 C30,10 70,50 90,30 C110,10 150,50 170,30 C190,10 230,50 250,30" fill="none" stroke="#19aeff" stroke-width="4"/>
+      <path d="M10,70 C30,90 70,50 90,70 C110,90 150,50 170,70 C190,90 230,50 250,70" fill="none" stroke="#ff4141" stroke-width="4"/>
+      
+      <!-- Base pairs -->
+      <line x1="30" y1="30" x2="30" y2="70" stroke="#333" stroke-width="2"/>
+      <line x1="65" y1="42" x2="65" y2="58" stroke="#333" stroke-width="2"/>
+      <line x1="90" y1="30" x2="90" y2="70" stroke="#333" stroke-width="2"/>
+      <line x1="115" y1="42" x2="115" y2="58" stroke="#333" stroke-width="2"/>
+      <line x1="140" y1="42" x2="140" y2="58" stroke="#333" stroke-width="2"/>
+      <line x1="170" y1="30" x2="170" y2="70" stroke="#333" stroke-width="2"/>
+      <line x1="195" y1="42" x2="195" y2="58" stroke="#333" stroke-width="2"/>
+      <line x1="220" y1="42" x2="220" y2="58" stroke="#333" stroke-width="2"/>
+    </g>
+    
+    <!-- Lab Equipment/PCR Machine -->
+    <g transform="translate(-100, 100) scale(0.35)">
+      <rect x="0" y="0" width="200" height="150" rx="10" ry="10" fill="#e0e0e0" stroke="#333" stroke-width="3"/>
+      <rect x="15" y="15" width="170" height="60" rx="5" ry="5" fill="#333" stroke="#333" stroke-width="2"/>
+      
+      <!-- PCR block -->
+      <rect x="25" y="25" width="150" height="40" rx="2" ry="2" fill="#666"/>
+      
+      <!-- Wells in PCR block -->
+      <g fill="#19aeff" stroke="#333">
+        <circle cx="40" cy="35" r="5"/>
+        <circle cx="60" cy="35" r="5"/>
+        <circle cx="80" cy="35" r="5"/>
+        <circle cx="100" cy="35" r="5"/>
+        <circle cx="120" cy="35" r="5"/>
+        <circle cx="140" cy="35" r="5"/>
+        
+        <circle cx="40" cy="55" r="5"/>
+        <circle cx="60" cy="55" r="5"/>
+        <circle cx="80" cy="55" r="5"/>
+        <circle cx="100" cy="55" r="5"/>
+        <circle cx="120" cy="55" r="5"/>
+        <circle cx="140" cy="55" r="5"/>
+      </g>
+      
+      <!-- Control panel -->
+      <rect x="15" y="85" width="170" height="50" fill="#f0f0f0" stroke="#333"/>
+      
+      <!-- Display -->
+      <rect x="25" y="95" width="80" height="30" fill="#333"/>
+      <rect x="30" y="100" width="70" height="20" fill="#5dbb63"/>
+      
+      <!-- Buttons -->
+      <circle cx="130" cy="100" r="8" fill="#ffc022" stroke="#333"/>
+      <circle cx="155" cy="100" r="8" fill="#ff4141" stroke="#333"/>
+      <rect x="120" cy="120" width="45" height="8" rx="4" ry="4" fill="#333"/>
+    </g>
+  </g>
+  <text x="620" y="300" font-family="Arial, sans-serif" font-weight="bold" font-size="20" text-anchor="middle" fill="#333">BUILD</text>
+  
+  <!-- TEST Section - Lower Right -->
+  <g transform="translate(620, 400)">
+    <!-- Cell Culture Plate from cc-0/Cell_culture/Marcel_Tisch/cells_foci.svg -->
+    <g transform="scale(1.2)">
+      <path fill="none" stroke="#b3a7aa" stroke-width="0.22" d="M1,46.38c-1.85-15,11.78-32.19,46.31-33.82,24.92-1.19,50,12.16,49.28,33.1-.35,10.58-18.68,26.6-48.78,26.58C22,72.22,2.71,60.12,1,46.38Z"/>
+      <path fill="#c9cac7" d="M46.59.19C12.56,1.8-1.63,18.46.19,33.27c.14,1.08,1.2,2.83,1.58,3.89C2.12,23.21,16,8.53,47.55,7,70.27,6,93,17.08,95.74,35.1c.28-1,.59.74.81-.3C101.5,11.21,71.14-1,46.59.19"/>
+      
+      <!-- Cell colonies -->
+      <g transform="translate(0, 10) scale(1.2)">
+        <path fill="#00a3df" stroke="#333" stroke-width="0.29" d="M32.48,33h-.06a.83.83,0,0,0-.29.16,22.29,22.29,0,0,0-6.26,6.61c-.46.85-1.77,3.36-1.08,4.17a8.52,8.52,0,0,0,2.32,1.41,12.51,12.51,0,0,0,2.47,1.06l.1,0a3.84,3.84,0,0,0,1.46.19,4.6,4.6,0,0,0,2-.9,33.88,33.88,0,0,0,4.06-3.21A11.19,11.19,0,0,0,40,39.1c.51-1.13.56-2.22-.6-2.87a53.19,53.19,0,0,0-6.56-3.12A.8.8,0,0,0,32.48,33Z"/>
+        <path fill="#00a3df" stroke="#333" stroke-width="0.29" d="M54.17,19.66h-.06a.69.69,0,0,0-.29.16,22.17,22.17,0,0,0-6.26,6.61c-.46.85-1.77,3.36-1.08,4.17A9.05,9.05,0,0,0,48.8,32a13.13,13.13,0,0,0,2.47,1.06l.1,0a3.84,3.84,0,0,0,1.46.19,4.6,4.6,0,0,0,2-.9,34.79,34.79,0,0,0,4.07-3.21,11.3,11.3,0,0,0,2.74-3.45c.51-1.13.56-2.22-.6-2.87a53.19,53.19,0,0,0-6.56-3.12A.8.8,0,0,0,54.17,19.66Z"/>
+        <path fill="#00a3df" stroke="#333" stroke-width="0.29" d="M40.34,39.08h-.06a.69.69,0,0,0-.29.16,22.17,22.17,0,0,0-6.26,6.61c-.46.84-1.77,3.35-1.08,4.16A8.81,8.81,0,0,0,35,51.44a13.82,13.82,0,0,0,2.47,1.06l.11,0a4,4,0,0,0,1.46.18,4.6,4.6,0,0,0,2-.89,34.19,34.19,0,0,0,4.07-3.21,11.55,11.55,0,0,0,2.74-3.45c.52-1.14.57-2.22-.59-2.88a54.82,54.82,0,0,0-6.57-3.12A.94.94,0,0,0,40.34,39.08Z"/>
+      </g>
+    </g>
+    
+    <!-- qPCR Plot from cc-0/Scientific_graphs/Marcel_Tisch/qPCR_plot.svg -->
+    <g transform="translate(-150, 20) scale(1.5)">
+      <path fill="none" stroke="#74bc3c" stroke-width="0.75" d="M1.6,79.12H17.15c5.4,0,10.21-7.43,12-18.54l6.29-38.92c1.79-11.11,6.61-18.55,12-18.55H58.18"/>
+      <path fill="none" stroke="#74bc3c" stroke-width="0.75" d="M3.55,79.12H19.09c5.4,0,10.22-7.43,12-18.54l6.29-38.92c1.8-11.11,6.61-18.55,12-18.55H60.12"/>
+      <path fill="none" stroke="#bcb64d" stroke-width="0.75" d="M46.12,79.12H61.66c5.41,0,10.22-7.43,12-18.54L80,21.66c1.8-11.11,6.62-18.55,12-18.55h10.71"/>
+      <path fill="none" stroke="#bcb64d" stroke-width="0.75" d="M48.06,79.12H63.61c5.4,0,10.22-7.43,12-18.54l6.29-38.92c1.8-11.11,6.61-18.55,12-18.55h10.72"/>
+      <path fill="none" stroke="#87bfcc" stroke-width="0.75" d="M15.5,79.12H31.05c5.4,0,10.21-7.43,12-18.54l6.29-38.92C51.14,10.55,56,3.11,61.36,3.11H72.08"/>
+      <path fill="none" stroke="#87bfcc" stroke-width="0.75" d="M17.84,79.12H33.39c5.4,0,10.22-7.43,12-18.54l6.29-38.92c1.8-11.11,6.61-18.55,12-18.55H74.42"/>
+      <path fill="none" stroke="#7676a5" stroke-width="0.75" d="M30.91,79.12H46.45c5.41,0,10.22-7.43,12-18.54l6.29-38.92c1.79-11.11,6.61-18.55,12-18.55H87.49"/>
+      <path fill="none" stroke="#7676a5" stroke-width="0.75" d="M33.25,79.12H48.8c5.4,0,10.21-7.43,12-18.54L67.1,21.66c1.79-11.11,6.61-18.55,12-18.55H89.83"/>
+      <line fill="none" stroke="#000" stroke-width="0.75" x1="0.5" y1="65.29" x2="101.48" y2="65.29" stroke-dasharray="2.97,2.97"/>
+      <line fill="none" stroke="#000" stroke-width="0.75" x1="0.5" y1="0" x2="0.5" y2="79.65"/>
+      <line fill="none" stroke="#000" stroke-width="0.75" x1="101.39" y1="79.32" x2="0.5" y2="79.32"/>
+    </g>
+  </g>
+  <text x="620" y="530" font-family="Arial, sans-serif" font-weight="bold" font-size="20" text-anchor="middle" fill="#333">TEST</text>
+  
+  <!-- LEARN Section - Lower Left -->
+  <g transform="translate(180, 400)">
+    <!-- Pipeline from cc-0/Machine_Learning/Simon_Dürr/pipeline.svg -->
+    <g transform="scale(0.75)">
+      <path fill="url(#linearGradient893)" stroke="#000000" stroke-width="0.8" d="m 315.57,263.32694 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 V 250.3 c 25.70047,2.19269 50.95642,1.82942 75.94,-0.1 z"/>
+      <path fill="url(#linearGradient895)" stroke="#000000" stroke-width="0.8" d="m 223.2,224.68 c 42.01882,7.27959 72.63068,5.88398 108.68,0 l -16.31,25.52 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 z"/>
+      
+      <g stroke="#000000" stroke-width="0.8">
+        <path fill="none" d="m 331.73,224.68 c 0.11927,1.07347 -52.91491,10.81579 -108.53,0 54.34258,-14.00264 108.43397,-0.86423 108.53,0 z"/>
+        <path fill="none" d="m 315.57,250.2 v 13.12694"/>
+      </g>
+      
+      <g transform="matrix(0.80845496,0,0,0.80845496,53.161411,113.69795)" stroke-width="0.98954183">
+        <path fill="url(#linearGradient875)" stroke="#000000" d="m 315.57,263.32694 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 V 250.3 c 25.70047,2.19269 50.95642,1.82942 75.94,-0.1 z"/>
+        <path fill="url(#linearGradient877)" stroke="#000000" d="m 223.2,224.68 c 42.01882,7.27959 72.63068,5.88398 108.68,0 l -16.31,25.52 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 z"/>
+      </g>
+      
+      <g transform="matrix(0.66479618,0,0,0.66479618,93.032468,210.40306)" stroke-width="1.20337635">
+        <path fill="url(#linearGradient889)" stroke="#000000" d="m 315.57,263.32694 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 V 250.3 c 25.70047,2.19269 50.95642,1.82942 75.94,-0.1 z"/>
+        <path fill="url(#linearGradient891)" stroke="#000000" d="m 223.2,224.68 c 42.01882,7.27959 72.63068,5.88398 108.68,0 l -16.31,25.52 c -17.4704,1.82935 -62.12334,2.10135 -75.94,0.1 z"/>
+      </g>
+    </g>
+    
+    <!-- Neural Network -->
+    <g transform="translate(100, 0)">
+      <rect x="20" y="20" width="140" height="100" fill="#f8f9fa" stroke="#333" stroke-width="1.5" rx="5" ry="5"/>
+      
+      <!-- Input layer -->
+      <circle cx="40" cy="50" r="7" fill="#19aeff" stroke="#333" stroke-width="1"/>
+      <circle cx="40" cy="70" r="7" fill="#19aeff" stroke="#333" stroke-width="1"/>
+      <circle cx="40" cy="90" r="7" fill="#19aeff" stroke="#333" stroke-width="1"/>
+      
+      <!-- Hidden layer -->
+      <circle cx="90" cy="40" r="7" fill="#ffc022" stroke="#333" stroke-width="1"/>
+      <circle cx="90" cy="60" r="7" fill="#ffc022" stroke="#333" stroke-width="1"/>
+      <circle cx="90" cy="80" r="7" fill="#ffc022" stroke="#333" stroke-width="1"/>
+      <circle cx="90" cy="100" r="7" fill="#ffc022" stroke="#333" stroke-width="1"/>
+      
+      <!-- Output layer -->
+      <circle cx="140" cy="60" r="7" fill="#ff4141" stroke="#333" stroke-width="1"/>
+      <circle cx="140" cy="80" r="7" fill="#ff4141" stroke="#333" stroke-width="1"/>
+      
+      <!-- Connections -->
+      <g stroke="#333" stroke-width="1" opacity="0.6">
+        <!-- Input to hidden -->
+        <line x1="47" y1="50" x2="83" y2="40"/>
+        <line x1="47" y1="50" x2="83" y2="60"/>
+        <line x1="47" y1="50" x2="83" y2="80"/>
+        <line x1="47" y1="50" x2="83" y2="100"/>
+        
+        <line x1="47" y1="70" x2="83" y2="40"/>
+        <line x1="47" y1="70" x2="83" y2="60"/>
+        <line x1="47" y1="70" x2="83" y2="80"/>
+        <line x1="47" y1="70" x2="83" y2="100"/>
+        
+        <line x1="47" y1="90" x2="83" y2="40"/>
+        <line x1="47" y1="90" x2="83" y2="60"/>
+        <line x1="47" y1="90" x2="83" y2="80"/>
+        <line x1="47" y1="90" x2="83" y2="100"/>
+        
+        <!-- Hidden to output -->
+        <line x1="97" y1="40" x2="133" y2="60"/>
+        <line x1="97" y1="40" x2="133" y2="80"/>
+        
+        <line x1="97" y1="60" x2="133" y2="60"/>
+        <line x1="97" y1="60" x2="133" y2="80"/>
+        
+        <line x1="97" y1="80" x2="133" y2="60"/>
+        <line x1="97" y1="80" x2="133" y2="80"/>
+        
+        <line x1="97" y1="100" x2="133" y2="60"/>
+        <line x1="97" y1="100" x2="133" y2="80"/>
+      </g>
+    </g>
+    
+    <!-- Data visualization dashboard -->
+    <g transform="translate(-20, 40)">
+      <rect x="0" y="0" width="120" height="140" fill="#f0f0f0" stroke="#333" stroke-width="1.5" rx="5" ry="5"/>
+      
+      <!-- Charts -->
+      <rect x="10" y="10" width="100" height="40" fill="#fff" stroke="#333"/>
+      <polyline points="15,45 25,35 35,40 45,20 55,25 65,30 75,15 85,25 95,20 105,30" 
+                stroke="#ff4141" fill="none" stroke-width="1.5"/>
+      
+      <rect x="10" y="60" width="45" height="30" fill="#fff" stroke="#333"/>
+      <!-- Pie chart -->
+      <path d="M32.5,75 L32.5,60 A15,15 0 0,1 47.5,75 Z" fill="#19aeff"/>
+      <path d="M32.5,75 L47.5,75 A15,15 0 0,1 32.5,90 Z" fill="#ff4141"/>
+      <path d="M32.5,75 L32.5,90 A15,15 0 0,1 17.5,75 Z" fill="#ffc022"/>
+      <path d="M32.5,75 L17.5,75 A15,15 0 0,1 32.5,60 Z" fill="#5dbb63"/>
+      
+      <rect x="65" y="60" width="45" height="30" fill="#fff" stroke="#333"/>
+      <!-- Bar chart -->
+      <rect x="70" y="80" width="5" height="5" fill="#19aeff"/>
+      <rect x="80" y="75" width="5" height="10" fill="#19aeff"/>
+      <rect x="90" y="65" width="5" height="20" fill="#19aeff"/>
+      <rect x="100" y="70" width="5" height="15" fill="#19aeff"/>
+      
+      <rect x="10" y="100" width="100" height="30" fill="#fff" stroke="#333"/>
+      <!-- Scatter plot -->
+      <circle cx="25" cy="110" r="2" fill="#ff4141"/>
+      <circle cx="35" cy="120" r="2" fill="#ff4141"/>
+      <circle cx="45" cy="115" r="2" fill="#ff4141"/>
+      <circle cx="60" cy="105" r="2" fill="#ff4141"/>
+      <circle cx="70" cy="110" r="2" fill="#ff4141"/>
+      <circle cx="80" cy="125" r="2" fill="#ff4141"/>
+      <circle cx="90" cy="115" r="2" fill="#ff4141"/>
+      <circle cx="100" cy="110" r="2" fill="#ff4141"/>
+    </g>
+  </g>
+  <text x="180" y="530" font-family="Arial, sans-serif" font-weight="bold" font-size="20" text-anchor="middle" fill="#333">DEEP LEARN</text>
+  
+  <!-- Cycle Arrows -->
+  <g stroke="#333" stroke-width="4" fill="none">
+    <!-- Design to Build (right arrow) -->
+    <path d="M300,180 C400,180 480,180 500,180" marker-end="url(#arrowhead)"/>
+    
+    <!-- Build to Test (down arrow) -->
+    <path d="M620,320 C620,360 620,380 620,390" marker-end="url(#arrowhead)"/>
+    
+    <!-- Test to Deep Learn (left arrow) -->
+    <path d="M500,460 C400,460 300,460 260,460" marker-end="url(#arrowhead)"/>
+    
+    <!-- Deep Learn to Design (up arrow) -->
+    <path d="M180,390 C180,330 180,300 180,290" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <!-- Linear gradients for pipeline elements -->
+    <linearGradient id="linearGradient875">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+    
+    <linearGradient id="linearGradient877">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+    
+    <linearGradient id="linearGradient889">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+    
+    <linearGradient id="linearGradient891">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+    
+    <linearGradient id="linearGradient893">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+    
+    <linearGradient id="linearGradient895">
+      <stop offset="0" stop-color="#97c6f2"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#97c6f2"/>
+    </linearGradient>
+  
+    <!-- Arrow markers -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333"/>
+    </marker>
+    
+    <marker id="arrowheadSmall" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

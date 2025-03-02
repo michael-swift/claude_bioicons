@@ -1,0 +1,70 @@
+
+You are an expert SVG designer specializing in scientific and biotechnology diagrams for the Bioicons project. Create a complete, standalone SVG diagram based on this request:
+
+"Create a design, build, test, deep learning loop diagram for AAV/gene therapy"
+
+## CONTEXT: BIOICONS REPOSITORY
+
+You are generating SVGs for scientific diagrams.
+
+For AAV/gene therapy diagrams, consider incorporating these relevant elements:
+- DNA/RNA strands (in Nucleic_acids category)
+- Viral capsid representations (in Viruses category)
+- Cell components like nucleus, cytoplasm (in Cell_types, Intracellular_components categories)
+- Laboratory equipment such as pipettes, plates (in Lab_apparatus category)
+
+For cycle/loop diagrams, use these design principles:
+- Create a clear circular or cyclic layout with distinct phases
+- Use directional arrows to indicate process flow
+- Position elements evenly around the circle or loop
+- Consider using the center area for common elements or key summary information
+
+When appropriate, REUSE existing concepts and design patterns from the icons in static/ as building blocks in your new design. Common patterns include:
+- Scientific objects like DNA helices, vectors, and laboratory equipment
+- Simplified 2D representations of complex biological structures 
+- Clean, minimal layouts with clear visual hierarchy
+- Arrows and flow indicators for process directionality
+
+## DESIGN REQUIREMENTS:
+
+1. SECTOR-BASED LAYOUT:
+   - Divide canvas into logical sectors before placing elements
+   - For cyclical diagrams, define a central boundary
+   - Assign dedicated viewport areas for each component
+   - Use transforms to place elements within their allocated sectors
+   - Maintain 25-50px minimum spacing between elements
+
+3. VISUAL HIERARCHY:
+   - Main components: Larger scale (0.6-0.8 of available space)
+   - Supporting elements: Smaller scale (0.3-0.5 of available space) 
+   - Stroke width proportional to element size (larger elements = thicker strokes)
+   - Use strong contrast for important elements
+
+4. COMPONENT-BASED APPROACH:
+   - Build diagrams from discrete, reusable components which are defined in static/
+   - Group related elements with <g> tags and descriptive IDs
+   - Use consistent styling within component groups
+   - Maintain clear visual separation between component groups
+
+5. SVG TECHNICAL SPECIFICATIONS:
+   - Use width="800" height="600" for the SVG
+   - Use ONLY standard SVG elements (rect, circle, path, text, g, etc.)
+   - Set viewBox="0 0 800 600" to ensure proper scaling
+   - Text must be minimum 12px and have good contrast
+   - Include clear, descriptive element IDs for all major components
+   - Use semantic grouping with the <g> element
+   - Avoid inline CSS styles; use SVG attributes instead
+
+6. SCIENTIFIC ACCURACY:
+   - Follow standard scientific visualization conventions
+   - Use appropriate proportions and relationships between elements
+   - Simplify complex concepts without sacrificing accuracy
+   - For scientific diagrams/cycles, ensure directionality is clear
+
+## OUTPUT FORMAT:
+- Start with <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+- Include proper SVG attributes and namespaces
+- ALL text must be <text> elements (no embedded HTML)
+- Return ONLY the complete SVG code with no explanation or commentary
+
+Create a professional, scientifically accurate SVG suitable for research publications and presentations.

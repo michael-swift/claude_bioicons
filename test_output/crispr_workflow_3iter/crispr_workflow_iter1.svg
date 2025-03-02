@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <g id="title">
+    <text x="400" y="50" font-family="Arial" font-size="26" fill="#333333" text-anchor="middle" font-weight="bold">CRISPR-Cas9 Workflow</text>
+  </g>
+  
+  <!-- Step 1: Computational gRNA Design -->
+  <g id="step1_computational_design">
+    <rect x="50" y="100" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="130" y="125" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Step 1</text>
+    <text x="130" y="150" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Computational</text>
+    <text x="130" y="170" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">gRNA Design</text>
+    
+    <!-- Computer icon -->
+    <rect x="90" y="185" width="80" height="60" rx="5" ry="5" fill="#19aeff" stroke="#333333" stroke-width="1.5" />
+    <rect x="100" y="195" width="60" height="40" rx="2" ry="2" fill="white" stroke="#333333" stroke-width="1" />
+    <rect x="110" y="205" width="40" height="20" fill="#f8f9fa" stroke="#333333" stroke-width="0.5" />
+    <!-- DNA sequence pattern in screen -->
+    <path d="M115,210 h30 M115,215 h25 M120,220 h25" stroke="#333333" stroke-width="0.5" />
+    
+    <!-- Caption -->
+    <text x="130" y="260" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Designing guide RNA sequences</text>
+    <text x="130" y="272" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">targeting specific DNA regions</text>
+  </g>
+  
+  <!-- Step 2: Cas9 Complex Formation -->
+  <g id="step2_complex_formation">
+    <rect x="270" y="100" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="350" y="125" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Step 2</text>
+    <text x="350" y="150" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Cas9-gRNA</text>
+    <text x="350" y="170" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Complex Formation</text>
+    
+    <!-- Cas9 protein -->
+    <ellipse cx="350" cy="215" rx="35" ry="25" fill="#ffc022" stroke="#333333" stroke-width="1.5" />
+    <!-- gRNA -->
+    <path d="M330,205 C335,195 340,195 350,200 S365,210 370,205" stroke="#ff4141" stroke-width="2.5" fill="none" />
+    <path d="M330,205 C335,215 340,215 350,210 S365,200 370,205" stroke="#ff4141" stroke-width="2.5" fill="none" />
+    
+    <!-- Caption -->
+    <text x="350" y="260" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Cas9 protein combines with</text>
+    <text x="350" y="272" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">gRNA to form active complex</text>
+  </g>
+  
+  <!-- Step 3: DNA Cutting -->
+  <g id="step3_dna_cutting">
+    <rect x="490" y="100" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="570" y="125" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Step 3</text>
+    <text x="570" y="150" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">DNA Cutting</text>
+    
+    <!-- DNA double helix -->
+    <path d="M530,195 C540,185 550,185 560,195 S570,205 580,195 S590,185 600,195" stroke="#19aeff" stroke-width="2.5" fill="none" />
+    <path d="M530,215 C540,225 550,225 560,215 S570,205 580,215 S590,225 600,215" stroke="#19aeff" stroke-width="2.5" fill="none" />
+    <!-- DNA strands connecting -->
+    <line x1="530" y1="195" x2="530" y2="215" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="560" y1="215" x2="560" y2="195" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="580" y1="195" x2="580" y2="215" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="600" y1="215" x2="600" y2="195" stroke="#19aeff" stroke-width="1.5" />
+    
+    <!-- Cut mark -->
+    <line x1="565" y1="185" x2="565" y2="225" stroke="#ff4141" stroke-width="2" stroke-dasharray="5,3" />
+    <!-- Scissors icon -->
+    <path d="M565,170 C568,173 570,173 572,170 C574,173 576,173 578,170" stroke="#333333" stroke-width="1.5" fill="none" />
+    <circle cx="570" cy="168" r="3" fill="#333333" />
+    <circle cx="578" cy="168" r="3" fill="#333333" />
+    
+    <!-- Caption -->
+    <text x="570" y="260" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Complex locates target DNA and</text>
+    <text x="570" y="272" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">creates double-strand break</text>
+  </g>
+  
+  <!-- Step 4: DNA Repair -->
+  <g id="step4_dna_repair">
+    <rect x="50" y="300" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="130" y="325" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Step 4</text>
+    <text x="130" y="350" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">DNA Repair</text>
+    
+    <!-- DNA being repaired -->
+    <path d="M80,380 C90,370 100,370 110,380 S120,390 130,380 S140,370 150,380 S160,390 170,380" stroke="#19aeff" stroke-width="2.5" fill="none" />
+    <path d="M80,400 C90,410 100,410 110,400 S120,390 130,400 S140,410 150,400 S160,390 170,400" stroke="#19aeff" stroke-width="2.5" fill="none" />
+    <!-- DNA strands connecting -->
+    <line x1="80" y1="380" x2="80" y2="400" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="110" y1="400" x2="110" y2="380" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="130" y1="380" x2="130" y2="400" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="150" y1="400" x2="150" y2="380" stroke="#19aeff" stroke-width="1.5" />
+    <line x1="170" y1="380" x2="170" y2="400" stroke="#19aeff" stroke-width="1.5" />
+    
+    <!-- Repair protein -->
+    <circle cx="130" cy="390" r="20" fill="#5dbb63" fill-opacity="0.6" stroke="#333333" stroke-width="1.5" />
+    
+    <!-- Caption -->
+    <text x="130" y="440" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Cellular repair mechanisms fix</text>
+    <text x="130" y="452" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">the break with edited sequence</text>
+  </g>
+  
+  <!-- Step 5: Phenotype Change -->
+  <g id="step5_phenotype_change">
+    <rect x="270" y="300" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="350" y="325" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Step 5</text>
+    <text x="350" y="350" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Cellular Recovery</text>
+    
+    <!-- Cell transformation -->
+    <circle cx="310" cy="390" r="25" fill="#ff4141" fill-opacity="0.7" stroke="#333333" stroke-width="1.5" />
+    <text x="310" y="395" font-family="Arial" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold">Disease</text>
+    
+    <path d="M340,390 h20" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <circle cx="390" cy="390" r="25" fill="#5dbb63" fill-opacity="0.7" stroke="#333333" stroke-width="1.5" />
+    <text x="390" y="395" font-family="Arial" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold">Normal</text>
+    
+    <!-- Caption -->
+    <text x="350" y="440" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Cells recover with corrected DNA,</text>
+    <text x="350" y="452" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">transforming disease state to normal</text>
+  </g>
+  
+  <!-- Outcome -->
+  <g id="outcome">
+    <rect x="490" y="300" width="160" height="140" rx="10" ry="10" fill="white" stroke="#333333" stroke-width="2" />
+    <text x="570" y="325" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle" font-weight="bold">Outcome</text>
+    <text x="570" y="350" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Restored Function</text>
+    
+    <!-- Healthy cell icon -->
+    <circle cx="570" cy="390" r="30" fill="#5dbb63" fill-opacity="0.3" stroke="#5dbb63" stroke-width="2" />
+    <circle cx="570" cy="390" r="20" fill="#5dbb63" fill-opacity="0.5" stroke="#5dbb63" stroke-width="1.5" />
+    <circle cx="570" cy="390" r="10" fill="#5dbb63" fill-opacity="0.7" stroke="#5dbb63" stroke-width="1" />
+    
+    <!-- Caption -->
+    <text x="570" y="440" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">Cellular function normalized</text>
+    <text x="570" y="452" font-family="Arial" font-size="10" fill="#666666" text-anchor="middle">and disease phenotype corrected</text>
+  </g>
+  
+  <!-- Connecting Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+  
+  <g id="connecting_arrows">
+    <!-- Step 1 to Step 2 -->
+    <path d="M210,170 H270" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <!-- Step 2 to Step 3 -->
+    <path d="M430,170 H490" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <!-- Step 3 to Step 4 -->
+    <path d="M570,240 L570,270 L130,270 L130,300" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <!-- Step 4 to Step 5 -->
+    <path d="M210,370 H270" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <!-- Step 5 to Outcome -->
+    <path d="M430,370 H490" stroke="#333333" stroke-width="2" marker-end="url(#arrowhead)" />
+  </g>
+  
+  <!-- Phase backgrounds -->
+  <g id="phase_backgrounds" opacity="0.08">
+    <rect x="40" y="90" width="620" height="160" rx="15" ry="15" fill="#19aeff" />
+    <rect x="40" y="290" width="300" height="160" rx="15" ry="15" fill="#ff4141" />
+    <rect x="480" y="290" width="180" height="160" rx="15" ry="15" fill="#5dbb63" />
+    <text x="355" y="90" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Preparation & Targeting</text>
+    <text x="190" y="290" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Modification Process</text>
+    <text x="570" y="290" font-family="Arial" font-size

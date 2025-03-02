@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="design_build_test_learn_improved.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview58"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.78666667"
+     inkscape:cx="264.40678"
+     inkscape:cy="306.99153"
+     inkscape:window-width="1312"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg58" />
+  <title
+     id="title1">Design, Build, Test, Deep Learn Cycle</title>
+  <!-- Background -->
+  <rect
+     x="-1"
+     y="-0.75"
+     width="802"
+     height="601.5"
+     fill="#f8f9fa"
+     id="rect1"
+     style="stroke-width:1.0025" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="76.86441"
+     font-family="Arial, sans-serif"
+     font-size="24px"
+     text-anchor="middle"
+     fill="#333333"
+     id="text1">Design, Build, Test, Deep Learn Cycle</text>
+  <!-- Design Section - Upper Left -->
+  <g
+     transform="matrix(0.72051929,0,0,0.72051929,102.01587,155.08474)"
+     id="g10">
+    <!-- Laptop icon from cc-0/Computer_hardware/Simon_Dürr/laptop.svg -->
+    <g
+       transform="matrix(0.5,0,0,0.5,-47.635135,10.585586)"
+       id="g7">
+      <path
+         d="m 18.416,0 h 282.152 c 2.366,0 4.272,1.958 4.272,4.39 v 175.957 c 0,2.432 -1.906,4.39 -4.272,4.39 H 18.416 c -2.367,0 -4.272,-1.958 -4.272,-4.39 V 4.39 C 14.144,1.958 16.049,0 18.416,0 Z"
+         fill="#333333"
+         id="path1" />
+      <path
+         d="m 3.543,184.325 c -0.84,0 -2.198,0.91 -2.843,2.092 -1.127,2.066 -0.843,4.051 0.526,9.386 0.656,2.555 1.021,6.507 3.832,6.507 h 308.895 c 2.81,0 3.177,-3.952 3.832,-6.507 1.369,-5.335 1.653,-7.32 0.526,-9.386 -0.645,-1.182 -2.003,-2.092 -2.843,-2.092 H 143.256 Z"
+         fill="#333333"
+         id="path2" />
+      <rect
+         x="25"
+         y="15"
+         width="270"
+         height="155"
+         fill="#3d3da9"
+         rx="2"
+         ry="2"
+         id="rect2" />
+      <!-- Code display elements -->
+      <rect
+         x="45"
+         y="30"
+         width="230"
+         height="15"
+         fill="#ffffff"
+         opacity="0.7"
+         rx="2"
+         ry="2"
+         id="rect3" />
+      <rect
+         x="45"
+         y="55"
+         width="180"
+         height="15"
+         fill="#ffffff"
+         opacity="0.7"
+         rx="2"
+         ry="2"
+         id="rect4" />
+      <rect
+         x="45"
+         y="80"
+         width="200"
+         height="15"
+         fill="#ffffff"
+         opacity="0.7"
+         rx="2"
+         ry="2"
+         id="rect5" />
+      <rect
+         x="45"
+         y="105"
+         width="150"
+         height="15"
+         fill="#ffffff"
+         opacity="0.7"
+         rx="2"
+         ry="2"
+         id="rect6" />
+      <rect
+         x="45"
+         y="130"
+         width="210"
+         height="15"
+         fill="#ffffff"
+         opacity="0.7"
+         rx="2"
+         ry="2"
+         id="rect7" />
+    </g>
+    <!-- Flow diagram -->
+  </g>
+  <text
+     x="171.1017"
+     y="293.64407"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     font-size="20px"
+     text-anchor="middle"
+     fill="#333333"
+     id="text10">DESIGN</text>
+  <!-- Build Section - Upper Right -->
+  <g
+     transform="matrix(0.87734166,0,0,0.87734166,558.9273,149.09679)"
+     id="g22">
+    <!-- CRISPR vector from cc-0/Nucleic_acids/umasstr/CRISPR_Cas9_vector.svg simplified -->
+    <g
+       transform="scale(0.4)"
+       id="g17">
+      <circle
+         cx="150"
+         cy="150"
+         r="140"
+         fill="#ffffff"
+         stroke="#333333"
+         stroke-width="5"
+         id="circle10" />
+      <circle
+         cx="150"
+         cy="150"
+         r="110"
+         fill="none"
+         stroke="#ff4141"
+         stroke-width="10"
+         id="circle11" />
+      <!-- Vector elements -->
+      <path
+         d="M 150,40 V 70"
+         stroke="#333333"
+         stroke-width="5"
+         id="path11" />
+      <path
+         d="m 150,230 v 30"
+         stroke="#333333"
+         stroke-width="5"
+         id="path12" />
+      <path
+         d="M 40,150 H 70"
+         stroke="#333333"
+         stroke-width="5"
+         id="path13" />
+      <path
+         d="m 230,150 h 30"
+         stroke="#333333"
+         stroke-width="5"
+         id="path14" />
+      <!-- Features -->
+      <rect
+         x="130"
+         y="80"
+         width="40"
+         height="20"
+         fill="#19aeff"
+         rx="5"
+         ry="5"
+         id="rect14" />
+      <rect
+         x="190"
+         y="130"
+         width="40"
+         height="20"
+         fill="#ff4141"
+         rx="5"
+         ry="5"
+         transform="rotate(45,210,140)"
+         id="rect15" />
+      <rect
+         x="130"
+         y="190"
+         width="40"
+         height="20"
+         fill="#ffc022"
+         rx="5"
+         ry="5"
+         id="rect16" />
+      <rect
+         x="70"
+         y="130"
+         width="40"
+         height="20"
+         fill="#5dbb63"
+         rx="5"
+         ry="5"
+         transform="rotate(-45,90,140)"
+         id="rect17" />
+    </g>
+    <!-- Construction elements -->
+    <g
+       transform="translate(-60,30)"
+       id="g21">
+      <rect
+         x="0"
+         y="0"
+         width="40"
+         height="10"
+         fill="#666666"
+         id="rect18" />
+      <rect
+         x="0"
+         y="15"
+         width="40"
+         height="10"
+         fill="#666666"
+         id="rect19" />
+      <rect
+         x="0"
+         y="30"
+         width="40"
+         height="10"
+         fill="#666666"
+         id="rect20" />
+      <rect
+         x="15"
+         y="-15"
+         width="10"
+         height="70"
+         fill="#666666"
+         id="rect21" />
+    </g>
+  </g>
+  <text
+     x="620"
+     y="300"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     font-size="20"
+     text-anchor="middle"
+     fill="#333"
+     id="text22">BUILD</text>
+  <!-- Test Section - Lower Right -->
+  <g
+     transform="translate(619.57627,393.98306)"
+     id="g33">
+    <!-- qPCR machine simplified and more recognizable -->
+    <g
+       transform="scale(0.5)"
+       id="g28">
+      <rect
+         x="0"
+         y="0"
+         width="200"
+         height="150"
+         rx="10"
+         ry="10"
+         fill="#dbdbdb"
+         stroke="#333333"
+         stroke-width="3"
+         id="rect22" />
+      <rect
+         x="20"
+         y="20"
+         width="160"
+         height="60"
+         rx="5"
+         ry="5"
+         fill="#1b1d55"
+         stroke="#333333"
+         stroke-width="2"
+         id="rect23" />
+      <!-- Display screen -->
+      <rect
+         x="30"
+         y="30"
+         width="140"
+         height="40"
+         rx="2"
+         ry="2"
+         fill="#3d3da9"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect24" />
+      <!-- Control panel -->
+      <rect
+         x="20"
+         y="90"
+         width="160"
+         height="50"
+         fill="#c8cac9"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect25" />
+      <!-- Buttons -->
+      <circle
+         cx="40"
+         cy="105"
+         r="8"
+         fill="#ff4141"
+         stroke="#333333"
+         id="circle25" />
+      <circle
+         cx="70"
+         cy="105"
+         r="8"
+         fill="#ffc022"
+         stroke="#333333"
+         id="circle26" />
+      <circle
+         cx="100"
+         cy="105"
+         r="8"
+         fill="#19aeff"
+         stroke="#333333"
+         id="circle27" />
+      <rect
+         x="130"
+         y="100"
+         width="40"
+         height="10"
+         rx="3"
+         ry="3"
+         fill="#333333"
+         id="rect27" />
+      <rect
+         x="40"
+         y="125"
+         width="100"
+         height="8"
+         rx="3"
+         ry="3"
+         fill="#333333"
+         id="rect28" />
+    </g>
+    <!-- Test tubes -->
+    <g
+       transform="translate(-80,20)"
+       id="g32">
+      <rect
+         x="0"
+         y="0"
+         width="60"
+         height="15"
+         rx="3"
+         ry="3"
+         fill="#999999"
+         stroke="#333333"
+         id="rect29" />
+      <rect
+         x="5"
+         y="0"
+         width="10"
+         height="40"
+         fill="#ff4141"
+         stroke="#333333"
+         id="rect30" />
+      <rect
+         x="25"
+         y="0"
+         width="10"
+         height="40"
+         fill="#19aeff"
+         stroke="#333333"
+         id="rect31" />
+      <rect
+         x="45"
+         y="0"
+         width="10"
+         height="40"
+         fill="#ffc022"
+         stroke="#333333"
+         id="rect32" />
+    </g>
+  </g>
+  <text
+     x="635.25421"
+     y="543.4068"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     font-size="20px"
+     text-anchor="middle"
+     fill="#333333"
+     id="text33">TEST</text>
+  <!-- Deep Learn Section - Lower Left -->
+  <g
+     transform="translate(130, 380)"
+     id="g52">
+    <!-- AI icon from cc-0/Machine_Learning/Simon_Dürr/ai.svg simplified -->
+    <g
+       transform="scale(1.4)"
+       id="g50">
+      <rect
+         x="32"
+         y="30"
+         width="74"
+         height="70"
+         fill="#f8f9fa"
+         stroke="#333"
+         stroke-width="1"
+         id="rect33" />
+      <!-- Neural network representation -->
+      <circle
+         cx="45"
+         cy="50"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle33" />
+      <circle
+         cx="45"
+         cy="80"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle34" />
+      <circle
+         cx="70"
+         cy="40"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle35" />
+      <circle
+         cx="70"
+         cy="65"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle36" />
+      <circle
+         cx="70"
+         cy="90"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle37" />
+      <circle
+         cx="95"
+         cy="50"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle38" />
+      <circle
+         cx="95"
+         cy="80"
+         r="5"
+         fill="#19aeff"
+         stroke="#333"
+         id="circle39" />
+      <!-- Connections -->
+      <line
+         x1="45"
+         y1="50"
+         x2="70"
+         y2="40"
+         stroke="#333"
+         stroke-width="1"
+         id="line39" />
+      <line
+         x1="45"
+         y1="50"
+         x2="70"
+         y2="65"
+         stroke="#333"
+         stroke-width="1"
+         id="line40" />
+      <line
+         x1="45"
+         y1="50"
+         x2="70"
+         y2="90"
+         stroke="#333"
+         stroke-width="1"
+         id="line41" />
+      <line
+         x1="45"
+         y1="80"
+         x2="70"
+         y2="40"
+         stroke="#333"
+         stroke-width="1"
+         id="line42" />
+      <line
+         x1="45"
+         y1="80"
+         x2="70"
+         y2="65"
+         stroke="#333"
+         stroke-width="1"
+         id="line43" />
+      <line
+         x1="45"
+         y1="80"
+         x2="70"
+         y2="90"
+         stroke="#333"
+         stroke-width="1"
+         id="line44" />
+      <line
+         x1="70"
+         y1="40"
+         x2="95"
+         y2="50"
+         stroke="#333"
+         stroke-width="1"
+         id="line45" />
+      <line
+         x1="70"
+         y1="40"
+         x2="95"
+         y2="80"
+         stroke="#333"
+         stroke-width="1"
+         id="line46" />
+      <line
+         x1="70"
+         y1="65"
+         x2="95"
+         y2="50"
+         stroke="#333"
+         stroke-width="1"
+         id="line47" />
+      <line
+         x1="70"
+         y1="65"
+         x2="95"
+         y2="80"
+         stroke="#333"
+         stroke-width="1"
+         id="line48" />
+      <line
+         x1="70"
+         y1="90"
+         x2="95"
+         y2="50"
+         stroke="#333"
+         stroke-width="1"
+         id="line49" />
+      <line
+         x1="70"
+         y1="90"
+         x2="95"
+         y2="80"
+         stroke="#333"
+         stroke-width="1"
+         id="line50" />
+    </g>
+    <!-- Graph visualization -->
+    <g
+       transform="translate(-67.372881,44.915254)"
+       id="g51">
+      <rect
+         x="0"
+         y="0"
+         width="100"
+         height="60"
+         fill="none"
+         stroke="#333333"
+         stroke-width="1"
+         id="rect50" />
+      <polyline
+         points="10,50 25,25 40,40 55,10 70,20 85,5"
+         fill="none"
+         stroke="#ff4141"
+         stroke-width="2"
+         id="polyline50" />
+      <polyline
+         points="10,45 25,35 40,30 55,20 70,25 85,15"
+         fill="none"
+         stroke="#19aeff"
+         stroke-width="2"
+         id="polyline51" />
+    </g>
+  </g>
+  <text
+     x="169.83051"
+     y="547.03387"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     font-size="20px"
+     text-anchor="middle"
+     fill="#333333"
+     id="text52">LEARN</text>
+  <!-- Cycle Arrows -->
+  <g
+     stroke="#333"
+     stroke-width="4"
+     fill="none"
+     id="g55">
+    <!-- Design to Build (right arrow) -->
+    <path
+       d="m 253.30508,194.57627 c 39.4742,-40.15735 139.76852,-101.597843 237.45763,1.27118"
+       marker-end="url(#arrowhead)"
+       id="path52"
+       style="stroke-width:3.31662"
+       sodipodi:nodetypes="cc" />
+    <!-- Build to Test (down arrow) -->
+    <path
+       d="m 621.27119,312.54237 c 0,50 0,60 0,70"
+       marker-end="url(#arrowhead)"
+       id="path53" />
+    <!-- Test to Deep Learn (left arrow) -->
+    <path
+       d="m 512.37289,464.15254 c -57.34282,62.06468 -153.34522,52.25466 -203.1356,0"
+       marker-end="url(#arrowhead)"
+       id="path54"
+       style="stroke-width:3.07808"
+       sodipodi:nodetypes="cc" />
+    <!-- Deep Learn to Design (up arrow) -->
+    <path
+       d="m 171.10169,397.79661 c 0,-50 0,-70 0,-80"
+       marker-end="url(#arrowhead)"
+       id="path55" />
+  </g>
+  <!-- Central description -->
+  <circle
+     cx="400"
+     cy="330"
+     r="80"
+     fill="#f0f0f0"
+     stroke="#333"
+     stroke-width="2"
+     id="circle55" />
+  <text
+     x="400"
+     y="320"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#333"
+     id="text55">Iterative</text>
+  <text
+     x="400"
+     y="345"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#333"
+     id="text56">Development</text>
+  <text
+     x="400"
+     y="370"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#333"
+     id="text57">Cycle</text>
+  <!-- Arrow definitions -->
+  <defs
+     id="defs58">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="8"
+       refX="8"
+       refY="4"
+       orient="auto">
+      <path
+         d="M0,0 L8,4 L0,8 Z"
+         fill="#333"
+         id="path57" />
+    </marker>
+    <marker
+       id="arrowheadSmall"
+       markerWidth="6"
+       markerHeight="5"
+       refX="5"
+       refY="2.5"
+       orient="auto">
+      <path
+         d="M0,0 L5,2.5 L0,5 Z"
+         fill="#333"
+         id="path58" />
+    </marker>
+  </defs>
+</svg>

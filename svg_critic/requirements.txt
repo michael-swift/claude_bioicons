@@ -1,0 +1,13 @@
+# Core dependencies
+anthropic>=0.14.0   # Claude API integration
+requests>=2.28.0    # HTTP requests
+python-dotenv>=1.0.0  # Environment variable management
+
+# Image processing and SVG handling
+Pillow>=9.0.0       # Image processing
+cairosvg>=2.5.0     # SVG rendering (not required on Windows)
+lxml>=4.6.0         # XML/SVG parsing
+
+# Analysis and visualization
+numpy>=1.20.0       # Numerical operations
+matplotlib>=3.4.0   # Visualization and reports

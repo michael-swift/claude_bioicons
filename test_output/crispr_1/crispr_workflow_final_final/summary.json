@@ -1,0 +1,13 @@
+{
+  "input_svg": "/Users/michaelswift/Kerna/personal_repos/claude_bioicons/test_output/crispr_workflow_final_improved/crispr_workflow_iter1.svg",
+  "output_dir": "/Users/michaelswift/Kerna/personal_repos/claude_bioicons/test_output/crispr_workflow_final_final",
+  "iterations_count": 1,
+  "final_score": 62,
+  "final_svg": "/Users/michaelswift/Kerna/personal_repos/claude_bioicons/test_output/crispr_workflow_final_final/crispr_workflow_iter1.svg",
+  "iteration_scores": [
+    62
+  ],
+  "used_claude_api": [
+    true
+  ]
+}
